@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - ติดต่อเรา</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>แบบฟอร์มการติดต่อ (Contact Us)</h2>
+    <p style="margin-bottom: 20px; color: #64748b;">กรุณากรอกข้อมูลด้านล่างเพื่อติดต่อเรา</p>
+
+    <form action="#" method="post">
+      <div class="form-group">
+        <label for="fullname">ชื่อ - นามสกุล:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="กรอกชื่อ-นามสกุลของคุณ" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">อีเมล (Email):</label>
+        <input type="email" id="email" name="email" placeholder="example@email.com" required>
+      </div>
+
+      <div class="form-group">
+        <label for="subject">หัวข้อ:</label>
+        <input type="text" id="subject" name="subject" placeholder="เรื่องที่ต้องการติดต่อ" required>
+      </div>
+
+      <div class="form-group">
+        <label for="message">ข้อความ:</label>
+        <textarea id="message" name="message" rows="5" placeholder="พิมพ์ข้อความที่ต้องการส่ง..." required></textarea>
+      </div>
+
+      <button type="submit" class="btn">ส่งข้อความ</button>
+    </form>
+
+    <div style="margin-top: 25px;">
+      <a href="index.html" style="color: #2563eb; text-decoration: none;">← กลับไปหน้าหลัก (Home)</a>
+    </div>
+
+    <footer>
+      <p>
+        <a href="https://github.com" target="_blank">My GitHub</a> | 
+        <a href="index.html">Home</a>
+      </p>
+    </footer>
+  </div>
+
+</body>
+</html>
